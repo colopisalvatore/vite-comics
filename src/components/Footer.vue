@@ -109,7 +109,7 @@ footer {
                 background-image: url("../assets/img/dc-logo-bg.png");
                 background-repeat: no-repeat;
                 background-position: right center;
-                width: 700px;
+                width: 800px;
             }
         }
     }
@@ -120,7 +120,8 @@ footer {
 
     #footer-nav {
         display: flex;
-        margin: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
 
         h5 {
             padding: 20px 0;
