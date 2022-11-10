@@ -29,4 +29,12 @@ export default {
 
 @import "./assets/scss/general.scss";
 
+#app {
+	font-family: $main_font;
+}
+#secondary-nav,
+footer li {
+	font-family: $lighter_font;
+}
+
 </style>

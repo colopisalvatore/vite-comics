@@ -109,7 +109,7 @@ footer {
                 background-image: url("../assets/img/dc-logo-bg.png");
                 background-repeat: no-repeat;
                 background-position: right center;
-                width: 800px;
+                width: 799px;
             }
         }
     }
