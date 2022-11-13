@@ -25,6 +25,7 @@
 
 
 <style scoped lang="scss">
+@import "../assets/scss/partials/variables.scss";
 #comics {
     ul {
         list-style-type: none;
@@ -41,7 +42,16 @@
             width: 200px;
             height: 200px;
             overflow: hidden;
+            
         }
+            .card img{
+                object-fit: cover;
+                transition: 0.5s;
+            }
+
+           .card img:hover {
+                transform: rotate(6deg) scale(1.2);
+            }
 
         p {
             padding: 20px 0;
