@@ -2,7 +2,6 @@
   <Header />
   <Main />
   <Footer />
-
 </template>
 
 <script>
@@ -15,11 +14,7 @@ export default {
     Header,
     Footer,
     Main,
-  },
-
-  data() {
-    return 
-  },
+  }, 
 }
 
 </script>

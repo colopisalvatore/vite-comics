@@ -14,21 +14,22 @@
         </section>        
         <section id="secondary-nav">
             <div class="container">
-                <Products :products="products" />
+                <Products />
             </div>
         </section>
     </main>
 </template>
 
 <script>
+import Comics from "./Comics.vue";
 import Products from "./Products.vue";
 
 export default {
     name: "Main",
     components: {
+        Comics,
         Products,
     },
-    props: ["products"],
 };
 </script>
 
@@ -55,25 +56,19 @@ main {
         height: 400px;
     }
 
-        .currentSeries {
-            width: fit-content;
-            padding: 10px;
-            font-weight: bold;
-            background-color: dodgerblue;
-            position: absolute;
-            top: -20px;
-            left: 0;
-            cursor: pointer;
-        }
-    
-        .load-more {
-            width: 200px;
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
-            background-color: dodgerblue;
-            cursor: pointer;
-        }
+    .currentSeries {
+		position: absolute;
+		top: -20px;
+		left: 0;
+	}
+	.load-more, .currentSeries {
+		width: 250px;
+		text-align: center;
+		padding: 10px;
+		font-weight: bold;
+		background-color: $DcBlue;
+		cursor: pointer;
+	}
 
     #secondary-nav {
         background-color: $DcBlue;
